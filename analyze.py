@@ -17,7 +17,7 @@ from sklearn.metrics import confusion_matrix, classification_report
 
 # data:  https://www.kaggle.com/nowke9/ipldata
 #Reading data from CSV file
-matches=pd.read_csv("/content/drive/My Drive/Colab Notebooks/matches.csv")
+matches=pd.read_csv("C:\Users\DELL\Documents\IPL-2nd-inning-analyze")
 
 #To check the number of columns containing null values
 null_columns=matches.isnull().sum()
